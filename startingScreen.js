@@ -98,7 +98,7 @@ createHero() {
            
             
              for (i = 0; i < this.arrayEnemys.length; i++){
-                this.enemy.draw()  }
+                this.arrayEnemys[i].draw()  }
             for (i = 0; i < this.arrayHearts.length; i++) {
                 this.heart.draw()
              
